@@ -1,20 +1,6 @@
 import sys
 import random
-A = ["Q♠", "A♦", "4♣"] 
-
-
-for i in range(len(A)):
-    A[i].replace("A","1")
-    A[i].replace("Q","12")
-    A[i].replace("K","13")
-    A[i].replace("♠","1")
-    A[i].replace("♦","2")
-    A[i].replace("♣","3")
-    A[i].replace("♥","4")
-    print(A[i])
-    
-
-
+A = [3, 20, 18] 
   
 # Traverse through all array elements 
 for i in range(len(A)):
